@@ -20,4 +20,3 @@ ____
 ![Start page of Application](https://github.com/bembel1993/imgForDiplom/blob/main/php2.png)
 ![Start page of Application](https://github.com/bembel1993/imgForDiplom/blob/main/php3.png)
 ![Start page of Application](https://github.com/bembel1993/imgForDiplom/blob/main/php4.png)
-![Start page of Application](https://github.com/bembel1993/imgForDiplom/blob/main/php5.png)
