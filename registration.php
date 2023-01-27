@@ -24,55 +24,43 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
-    <section class="vh-100 bg-image">
-        <div class="mask d-flex align-items-center h-100 gradient-custom-3">
-            <div class="container h-100">
-                <div class="row d-flex justify-content-center align-items-center h-100">
-                    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                        <div class="card" style="border-radius: 5px;">
-                            <div class="card-body p-5">
-                                <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+    <div class="wrapper">
+        <h2>Create an account</h2>
 
-                                <form action="" method="post" enctype="multipart/form-data" autocomplete="off">
+        <form action="" method="post" enctype="multipart/form-data" autocomplete="off">
 
-                                    <p class="error"><?php echo @$user->errorMessage ?></p>
-                                    <p class="success"><?php echo @$user->successMessage ?></p>
+            <p class="error"><?php echo @$user->errorMessage ?></p>
+            <p class="success"><?php echo @$user->successMessage ?></p>
 
-                                    <input type="text" id="login" name="login" class="form-control form-control-lg" />
-                                    <label class="form-label" for="form3Example4cg">Login</label>
+            <input type="text" id="login" name="login" class="form-control form-control-lg" />
+            <label class="form-label" for="form3Example4cg">Login</label>
 
-                                    <input type="password" id="password" name="password" class="form-control form-control-lg" />
-                                    <label class="form-label" for="form3Example4cg">Password</label>
+            <input type="password" id="password" name="password" class="form-control form-control-lg" />
+            <label class="form-label" for="form3Example4cg">Password</label>
 
-                                    <input type="password" id="confirm_password" name="confirm_password" class="form-control form-control-lg" />
-                                    <label class="form-label" for="form3Example4cdg">Confirm Password</label>
+            <input type="password" id="confirm_password" name="confirm_password" class="form-control form-control-lg" />
+            <label class="form-label" for="form3Example4cdg">Confirm Password</label>
 
-                                    <input type="email" id="email" name="email" class="form-control form-control-lg" />
-                                    <label class="form-label" for="form3Example3cg">Email</label>
+            <input type="email" id="email" name="email" class="form-control form-control-lg" />
+            <label class="form-label" for="form3Example3cg">Email</label>
 
-                                    <input type="text" id="name" name="name" class="form-control form-control-lg" />
-                                    <label class="form-label" for="form3Example1cg">Name</label>
+            <input type="text" id="name" name="name" class="form-control form-control-lg" />
+            <label class="form-label" for="form3Example1cg">Name</label>
 
-                                    <div class="d-flex justify-content-center">
-                                        <button type="submit" id="submit" name="submit" value="submit" class="btn btn-success btn-block btn-lg gradient-custom-1 text-body">
-                                            Register
-                                        </button>
-                                    </div>
-                                    <center>
-                                        <p>Have already an account?
-                                            <a href="login.php" class="fw-bold text-body">
-                                                <u>Login here</u>
-                                            </a>
-                                        </p>
-                                    </center>
-                                </form>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="input-box button">
+                <input type="submit" id="submit" name="submit" value="Register">
             </div>
-        </div>
+            <center>
+                <p>Have already an account?
+                    <a href="login.php" class="fw-bold text-body">
+                        <u>Login here</u>
+                    </a>
+                </p>
+            </center>
+        </form>
+
+
+    </div>
     </section>
 </body>
 

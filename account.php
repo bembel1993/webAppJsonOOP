@@ -20,7 +20,7 @@ include('includeForAccount.php');
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
 </head>
@@ -29,7 +29,7 @@ include('includeForAccount.php');
     <header>
         <div>
             <p>
-                <button type="button" class="btn btn-default btn-sm" style="float: right">
+                <button type="button" class="btn btn-info btn-lg" style="float: right">
                     <span class="glyphicon glyphicon-log-out"></span>
                     <!--<a href="?logout">Log out</a>-->
                     <a href="logout.php">Log out</a>
@@ -40,7 +40,7 @@ include('includeForAccount.php');
     </header>
     <div class="pri">
     </div>
-    <br><br><br><br>
+    <br><br>
 
     <a href="addUser.php">
         <button id="form" name="form" class="btn btn-danger">
